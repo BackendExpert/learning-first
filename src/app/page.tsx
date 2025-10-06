@@ -1,3 +1,9 @@
-export default function Page(){
-    return <img src="/next.svg" alt="logo" width={1000} height={100}/>
+import Image from "next/image";
+import Logo from '../../public/next.svg'
+
+export default function Page() {
+    return <Image
+        src={Logo}
+        alt="Picture of the author"
+    />
 }
